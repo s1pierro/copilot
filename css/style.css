@@ -1,0 +1,89 @@
+:root {
+  --background-color: #eee;
+  --navbar-footer-color: #fff;
+  --border-color: #bdbdbd;
+  --text-color: #000000;
+  --accent-color:#115E88;  /* Orange identité app */
+  --inactive-color: #666;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+}
+#core-head {
+background-color: var(--accent-color);
+min-height: 15vh;
+}
+#app-body {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  background-color: var(--navbar-footer-color);
+  border-top: 1px solid var(--border-color);
+  opadding-bottom: env(safe-area-inset-bottom, 1em);
+  padding-bottom: 1.85em;
+}
+
+.tab {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2em;
+  padding: 0.35em;
+  color: var(--text-color);
+  font-size: 0.9em;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.tab svg { width: 24px; height: 24px; margin: .85em; }
+.tab span { color: var(--inactive-color); }
+
+.tab.active { color: var(--accent-color); }
+.tab.active span { color: var(--accent-color); font-weight: bold; }
+
+.navbar h1 {
+  margin: 0;
+  font-size: 1.5em;
+  color: var(--accent-color);
+}
+
+.content {
+  flex: 1;
+  background-color: var(--background-color);
+  padding: 1em;
+  overflow-y: auto;
+}
+
+.content h2 {
+  color: var(--accent-color);
+}
+
+button {
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e65100;
+}
+
+/* L'écran de démarrage / état de l'application est dans pwa.css */

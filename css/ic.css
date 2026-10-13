@@ -1,0 +1,64 @@
+
+.icMapLocation {
+  display: inline-block;
+  height: 2em;
+  width: 2em;
+  min-height: 1em;
+  min-width: 1em;
+  background: url("../icons/map-location.svg");
+}
+.icMapCursor {
+  display: inline-block;
+  height: 1.5em;
+  width: 1.5em;
+  min-height: 1em;
+  min-width: 1em;
+  background: url("../icons/map-cursor-b.svg");
+  background-size: 100%;
+  margin: 0.25em;
+  
+}
+.icMenu {
+  display: inline-block;
+  height: 1.5em;
+  width: 1.5em;
+  min-height: 1em;
+  min-width: 1em;
+  background: url("../icons/icon-menu.svg");
+  background-size: 100%;
+  margin: 0.25em;
+  margin-left: 0.15em;
+  
+}
+.icPreferences {
+  display: inline-block;
+  height: 1.5em;
+  width: 1.5em;
+  min-height: 1em;
+  min-width: 1em;
+  background: url("../icons/icon-preferences.svg");
+  background-size: 100%;
+  margin: 0.5em;
+  
+}
+.icBusstop{
+  display: inline-block;
+  height: 1.5em;
+  width: 1.5em;
+  min-height: 1em;
+  min-width: 1em;
+  background: url("../icons/map-busstop-mono.svg");
+  background-size: 100%;
+  margin: 0.5em;
+  
+}
+.icWays{
+  display: inline-block;
+  height: 1.5em;
+  width: 1.5em;
+  min-height: 1em;
+  min-width: 1em;
+  background: url("../icons/map-ways-mono.svg");
+  background-size: 100%;
+  margin: 0.5em;
+}

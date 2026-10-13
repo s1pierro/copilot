@@ -1,0 +1,40 @@
+/* pwa.css — écran d'accueil / état de l'application */
+#overlay{
+  position:fixed;inset:0;z-index:9999;
+  background:var(--accent-color,#115e88);
+  display:flex;align-items:flex-start;justify-content:center;
+  overflow-y:auto;-webkit-overflow-scrolling:touch;
+  transition:opacity .6s ease;
+}
+#overlay.fade-out{opacity:0;pointer-events:none}
+.pw-panel{
+  width:100%;max-width:440px;box-sizing:border-box;margin:auto;
+  padding:max(1.4em,env(safe-area-inset-top)) 1.2em max(1.4em,env(safe-area-inset-bottom));
+  color:#fff;text-align:center;
+}
+.pw-logo{width:96px;height:96px;display:block;margin:.2em auto .4em}
+.pw-title{margin:0;font-size:1.7em;color:#fff}
+.pw-ver{margin:.2em 0 1.1em;font-size:.85em;opacity:.75}
+.pw-card{background:#fff;color:#000;border-radius:14px;text-align:left;overflow:hidden;margin-bottom:1em}
+.pw-row{display:flex;align-items:center;gap:.7em;padding:.7em 1em;border-top:1px solid #eee;font-size:.93em}
+.pw-row:first-child{border-top:0}
+.pw-dot{width:.7em;height:.7em;border-radius:50%;flex:none;background:#9aa3ab}
+.pw-dot.ok{background:#2e9d4f}.pw-dot.warn{background:#e08a00}.pw-dot.ko{background:#b3261e}
+.pw-k{flex:1;color:#444}
+.pw-v{font-weight:bold;text-align:right}
+.pw-hint{font-size:.85em;line-height:1.35;margin:0 .3em 1em;opacity:.9}
+.pw-btn{
+  display:block;width:100%;box-sizing:border-box;margin:0 0 .6em;padding:.85em 1em;
+  font:inherit;font-size:1.05em;border:0;border-radius:10px;cursor:pointer;
+  background:#fff;color:var(--accent-color,#115e88);font-weight:bold;
+  -webkit-tap-highlight-color:transparent;
+}
+.pw-btn:hover{background:#fff}
+.pw-btn:active{opacity:.85}
+.pw-btn.sec{background:rgba(255,255,255,.16);color:#fff;font-weight:normal}
+.pw-btn.sec:hover{background:rgba(255,255,255,.16)}
+.pw-btn.danger{background:none;color:#ffd2cd;font-weight:normal;font-size:.92em;padding:.6em 1em}
+.pw-btn.danger:hover{background:none}
+.pw-btn.armed{background:#b3261e;color:#fff;font-weight:bold}
+.pw-btn.armed:hover{background:#b3261e}
+.pw-sep{margin:1em 0 .6em;font-size:.78em;letter-spacing:.06em;text-transform:uppercase;opacity:.65}
