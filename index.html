@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+  
+<head>
+  
+  <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#115e88" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Bang Lab" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="apple-touch-icon" href="icons/icon-192x192.png" />
+    <link rel="icon" type="image/png" href="icons/icon-192x192.png" />
+    <link rel="stylesheet" href="css/ic.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/pwa.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@5.0.0/dist/maplibre-gl.css" crossorigin="anonymous" />
+    
+  <title>Bang Lab</title>
+   <link rel="manifest" href="manifest.json">
+   
+  <script>
+    // Sortie de secours : ouvrir l'adresse avec ?reset supprime service worker et caches, puis recharge.
+    if (/[?&]reset\b/.test(location.search)) {
+      Promise.all([
+        navigator.serviceWorker ? navigator.serviceWorker.getRegistrations().then(r => Promise.all(r.map(x => x.unregister()))) : 0,
+        window.caches ? caches.keys().then(k => Promise.all(k.map(x => caches.delete(x)))) : 0
+      ]).catch(() => {}).then(() => location.replace(location.pathname));
+    }
+    // Hauteur réelle de l'écran : en PWA plein écran, après un rechargement, Android peut donner une
+    // hauteur de viewport périmée (barres système) ; on la remesure à plusieurs reprises.
+    (function () {
+      const root = document.documentElement;
+      const fit = () => {
+        const vv = window.visualViewport;
+        const h = Math.round(Math.max(window.innerHeight || 0, vv ? vv.height + (vv.offsetTop || 0) : 0));
+        if (h > 100) root.style.setProperty('--app-h', h + 'px');
+      };
+      const burst = () => { fit(); [60, 200, 500, 1000, 2000].forEach(t => setTimeout(fit, t)); };
+      fit();
+      window.addEventListener('resize', fit);
+      window.addEventListener('orientationchange', burst);
+      window.addEventListener('pageshow', burst);
+      window.addEventListener('load', burst);
+      document.addEventListener('visibilitychange', () => { if (!document.hidden) burst(); });
+      document.addEventListener('fullscreenchange', burst);
+      if (window.visualViewport) window.visualViewport.addEventListener('resize', fit);
+    })();
+    // Si l'écran de démarrage reste vide (pwa.js absent ou en erreur), on le retire.
+    window.addEventListener('load', () => setTimeout(() => {
+      const o = document.getElementById('overlay');
+      if (o && !o.firstChild) o.classList.add('fade-out');
+    }, 2500));
+  </script>
+  <style>
+    :root {
+      --background-color: #eee;
+      --navbar-footer-color: #fff;
+      --border-color: #bdbdbd;
+      --text-color: #000000;
+      --accent-color:#115E88;  /* Orange identité app */
+      --inactive-color: #666;
+      --bcol: #EBB50D;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: var(--accent-color);
+      color: var(--text-color);
+      font-family: Arial, sans-serif;
+      font-size: 1em;
+    }
+    #core-head {
+background-color: var(--accent-color);
+min-height: 15vh;
+    }
+    #app-body {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      height: var(--app-h, 100dvh);
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      display: flex;
+      background-color: var(--navbar-footer-color);
+      border-top: 1px solid var(--border-color);
+      opadding-bottom: env(safe-area-inset-bottom, 1em);
+      padding-bottom: 1.85em;
+    }
+
+    .tab {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.2em;
+      padding: 0.35em;
+      color: var(--text-color);
+      font-size: 0.9em;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .tab svg { width: 24px; height: 24px; margin: .85em; }
+    .tab span { color: var(--inactive-color); }
+
+    .tab.active { color: var(--accent-color); }
+    .tab.active span { color: var(--accent-color); font-weight: bold; }
+
+    .navbar h1 {
+      margin: 0;
+      font-size: 1.5em;
+      color: var(--accent-color);
+    }
+
+    .content {
+      flex: 1;
+      background-color: var(--background-color);
+      padding: 1em;
+      overflow-y: auto;
+    }
+
+    .content h2 {
+      color: var(--accent-color);
+    }
+
+    button {
+      background-color: var(--accent-color);
+      color: white;
+      border: none;
+      padding: 0.5em 1em;
+      font-size: 1em;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #e65100;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="app-body">
+    <div class="content" id="app-content" >
+      <h2>Contenu principal</h2>
+      <p>Bienvenue dans votre application de visualisation du processeur !</p>
+    </div>
+    <div class="navbar" id="app-nav">
+      
+
+    </div>
+  </div>
+
+  <!-- Écran de démarrage / état de l'application (rempli par pwa.js) -->
+  <div id="overlay"></div>
+  
+<script src="storage-ns.js"></script>
+<script src="pwa.js"></script>
+<script src="geo-perm.js"></script>
+<script src="models.js"></script>
+<script src="routing.js"></script>
+<script src="icon-util.js"></script>
+<script src="qr-util.js"></script>
+<script src="contexts.js"></script>
+<script src="network-store.js"></script>
+<script src="demo-network.js"></script>
+<script src="ui-form.js"></script>
+<script src="ticket-search.js"></script>
+<script src="ctx-feed.js"></script>
+<script src="ctx-calendar.js"></script>
+<script src="detect.js"></script>
+<script src="ctx-detect.js"></script>
+<script src="ctx-feed-pages.js"></script>
+<script src="ctx-feed-data.js"></script>
+<script src="server-data.js"></script>
+<script src="smap.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@5.0.0/dist/maplibre-gl.js" crossorigin="anonymous"></script>
+<script src="gl-map.js"></script>
+<script src="carte-detect.js"></script>
+<script src="ctx-carte.js"></script>
+<script src="ctx-reglages.js"></script>
+<script src="bang.js"></script>
+    <script type="text/javascript">
+
+    // Console de débogage : ajouter ?eruda à l'adresse
+    if (/[?&]eruda\b/.test(location.search)) {
+      const e = document.createElement('script');
+      e.src = 'https://cdn.jsdelivr.net/npm/eruda';
+      e.onload = () => { try { eruda.init(); } catch (x) {} };
+      document.head.appendChild(e);
+    }
+    window.logctnr=document.createElement('div');
+  logctnr.id = 'log-ctnr';
+      
+  function l(s, c) {
+    console.log(s)
+  let loadlog = document.createElement('div');
+  loadlog.innerHTML = s;
+  if (c)
+  {
+    if (c == 1) loadlog.classList.add('load-log-red');
+    if (c == 2) loadlog.classList.add('load-log-green');
+  }
+  else loadlog.classList.add('load-log');
+  window.logctnr.prepend(loadlog);
+}
+
+    document.addEventListener('DOMContentLoaded', () => {
+      
+    // lancement app
+    
+    const bang = new Bang();
+    
+    const myDiv = bang.div('Hello World!', 'myDiv', 'myClass');
+    let target = document.getElementById('app-content');
+    //target.innerHTML = '';
+    
+    //target.appendChild(myDiv);
+ // console.log(svg);
+  var metaThemeColor = document.querySelector("meta[name=theme-color]");
+    metaThemeColor.setAttribute("content", "#fff");
+});
+  </script>
+</body>
+</html>

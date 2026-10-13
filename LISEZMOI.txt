@@ -1,0 +1,16 @@
+Bang Lab — version réduite de Bang
+===================================
+Trois onglets : Carte (carte interactive), Formulaires (tous les formulaires du Feed + détection) et Réglages
+(réseau actif, détection GNSS, calendrier, plein écran, installation).
+
+Installation
+1. Décompresser ce dossier à côté de l'application Bang (par ex. .../bang-lab/), le servir comme Bang.
+2. Ouvrir bang-lab/index.html, puis « Installer » depuis le navigateur.
+3. Données : déposer le fichier exporté depuis Bang (Formulaires › Exporter, « tous les réseaux ») sur le serveur,
+   sous le nom data/networks.json (à côté de index.html). Bang Lab le relit à chaque ouverture et le charge s'il a
+   changé ; sans réseau, il utilise la dernière copie. Réglages › Données › Recharger force le rechargement.
+   Autre emplacement : ouvrir une fois l'appli avec ?data=chemin/fichier.json (?data=defaut pour revenir).
+   L'import manuel (Formulaires › Importer) reste possible, mais le fichier du serveur l'emporte dès qu'il change.
+
+Les données de Bang Lab sont isolées (clés « lab: » dans localStorage, caches « lab-… ») : elles ne se mélangent
+pas avec celles de Bang, même sur la même adresse.
