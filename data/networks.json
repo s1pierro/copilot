@@ -2,7 +2,7 @@
   "app": "bang",
   "kind": "networks",
   "v": 1,
-  "exportedAt": "2026-10-13T23:10:05.210Z",
+  "exportedAt": "2026-10-14T00:40:18.889Z",
   "active": "n_muy8yo5irnfb",
   "networks": [
     {
@@ -292,8 +292,8 @@
           "id": "st_muycnsjbe9sk",
           "name": "RD6014 n°68",
           "city": "BOURG-BEAUDOUIN",
-          "lat": 49.384036,
-          "lon": 1.314767,
+          "lat": 49.384052,
+          "lon": 1.314627,
           "zoneId": null
         },
         {
@@ -646,8 +646,8 @@
                 "id": "st_muycnsjbe9sk",
                 "name": "RD6014 n°68",
                 "city": "BOURG-BEAUDOUIN",
-                "lat": 49.384036,
-                "lon": 1.314767,
+                "lat": 49.384052,
+                "lon": 1.314627,
                 "zoneId": null
               },
               "order": 15,
@@ -794,8 +794,8 @@
           "shape": {
             "sig": "st_muy95kia1x7u>st_muybxuun8pk1>st_muybyqnxwq6e>st_muyc05dzaujd>st_muyc1p7q6uf0>st_muyc3hyb8x2i>st_muyc4jtip5ms>st_muyc5aw3cr9h>st_muyc7exaiya1>st_muyc86oyhf2x>st_muyc8uin6k03>st_muyc997vwji8>st_muyc9xgau3fv>st_muycmf1iptcc>st_muycn62mzknh>st_muycnsjbe9sk>st_muycojfujagc>st_muycp3yliw4g>st_muycq025wfhi>st_muycqv6b7dhf>st_muycs1jy06m2>st_muycsyq37vku>st_muycva4p1i3t>st_muycw11ftb1i>st_muy96q2oo6ad|bus",
             "profile": "bus",
-            "m": 62759,
-            "s": 4951,
+            "m": 62366,
+            "s": 4878,
             "pts": [
               [
                 49.285,
@@ -1494,36 +1494,16 @@
                 1.33312
               ],
               [
-                49.38304,
-                1.31632
-              ],
-              [
-                49.38377,
-                1.31794
-              ],
-              [
-                49.3844,
-                1.31875
-              ],
-              [
-                49.38464,
-                1.31763
-              ],
-              [
-                49.38466,
-                1.31692
-              ],
-              [
-                49.38462,
-                1.31659
-              ],
-              [
                 49.38397,
                 1.31473
               ],
               [
                 49.38448,
                 1.31382
+              ],
+              [
+                49.38491,
+                1.31271
               ],
               [
                 49.3852,
@@ -2276,8 +2256,8 @@
                 "id": "st_muycnsjbe9sk",
                 "name": "RD6014 n°68",
                 "city": "BOURG-BEAUDOUIN",
-                "lat": 49.384036,
-                "lon": 1.314767,
+                "lat": 49.384052,
+                "lon": 1.314627,
                 "zoneId": null
               },
               "order": 15,
@@ -2422,8 +2402,8 @@
           "shape": {
             "sig": "st_muy95kia1x7u>st_muybxuun8pk1>st_muybyqnxwq6e>st_muyc05dzaujd>st_muyc1p7q6uf0>st_muyc3hyb8x2i>st_muyc4jtip5ms>st_muyc5aw3cr9h>st_muyc7exaiya1>st_muyc86oyhf2x>st_muyc8uin6k03>st_muyc997vwji8>st_muyc9xgau3fv>st_muycmf1iptcc>st_muycn62mzknh>st_muycnsjbe9sk>st_muycojfujagc>st_muycp3yliw4g>st_muycq025wfhi>st_muycqv6b7dhf>st_muycs1jy06m2>st_muycsyq37vku>st_muycva4p1i3t>st_muycw11ftb1i>st_muy96q2oo6ad|bus",
             "profile": "bus",
-            "m": 62759,
-            "s": 4951,
+            "m": 62366,
+            "s": 4878,
             "pts": [
               [
                 49.285,
@@ -3122,36 +3102,16 @@
                 1.33312
               ],
               [
-                49.38304,
-                1.31632
-              ],
-              [
-                49.38377,
-                1.31794
-              ],
-              [
-                49.3844,
-                1.31875
-              ],
-              [
-                49.38464,
-                1.31763
-              ],
-              [
-                49.38466,
-                1.31692
-              ],
-              [
-                49.38462,
-                1.31659
-              ],
-              [
                 49.38397,
                 1.31473
               ],
               [
                 49.38448,
                 1.31382
+              ],
+              [
+                49.38491,
+                1.31271
               ],
               [
                 49.3852,
@@ -3904,8 +3864,8 @@
                 "id": "st_muycnsjbe9sk",
                 "name": "RD6014 n°68",
                 "city": "BOURG-BEAUDOUIN",
-                "lat": 49.384036,
-                "lon": 1.314767,
+                "lat": 49.384052,
+                "lon": 1.314627,
                 "zoneId": null
               },
               "order": 15,
@@ -4027,8 +3987,8 @@
           "shape": {
             "sig": "st_muy95kia1x7u>st_muybxuun8pk1>st_muybyqnxwq6e>st_muyc05dzaujd>st_muyc1p7q6uf0>st_muyc3hyb8x2i>st_muyc4jtip5ms>st_muyc5aw3cr9h>st_muyc7exaiya1>st_muyc86oyhf2x>st_muyc8uin6k03>st_muyc997vwji8>st_muyc9xgau3fv>st_muycmf1iptcc>st_muycn62mzknh>st_muycnsjbe9sk>st_muycojfujagc>st_muycp3yliw4g>st_muycq025wfhi>st_muycu2iqjjyj>st_muycva4p1i3t>st_muycw11ftb1i>st_muy96q2oo6ad|bus",
             "profile": "bus",
-            "m": 60893,
-            "s": 4768,
+            "m": 60500,
+            "s": 4695,
             "pts": [
               [
                 49.285,
@@ -4727,36 +4687,16 @@
                 1.33312
               ],
               [
-                49.38304,
-                1.31632
-              ],
-              [
-                49.38377,
-                1.31794
-              ],
-              [
-                49.3844,
-                1.31875
-              ],
-              [
-                49.38464,
-                1.31763
-              ],
-              [
-                49.38466,
-                1.31692
-              ],
-              [
-                49.38462,
-                1.31659
-              ],
-              [
                 49.38397,
                 1.31473
               ],
               [
                 49.38448,
                 1.31382
+              ],
+              [
+                49.38491,
+                1.31271
               ],
               [
                 49.3852,
@@ -5269,8 +5209,8 @@
                 "id": "st_muycnsjbe9sk",
                 "name": "RD6014 n°68",
                 "city": "BOURG-BEAUDOUIN",
-                "lat": 49.384036,
-                "lon": 1.314767,
+                "lat": 49.384052,
+                "lon": 1.314627,
                 "zoneId": null
               },
               "order": 7,
@@ -5339,8 +5279,8 @@
           "shape": {
             "sig": "st_mv0863uj554e>st_mv087hkmvvvj>st_mv088h8j80we>st_muyc9xgau3fv>st_mv08bbd20zd6>st_muycmf1iptcc>st_muycn62mzknh>st_muycnsjbe9sk>st_muycojfujagc>st_muycva4p1i3t>st_muy96q2oo6ad|bus",
             "profile": "bus",
-            "m": 43992,
-            "s": 3689,
+            "m": 43599,
+            "s": 3615,
             "pts": [
               [
                 49.24247,
@@ -5887,34 +5827,6 @@
                 1.33312
               ],
               [
-                49.38304,
-                1.31632
-              ],
-              [
-                49.38377,
-                1.31794
-              ],
-              [
-                49.3844,
-                1.31875
-              ],
-              [
-                49.38464,
-                1.31763
-              ],
-              [
-                49.38466,
-                1.31692
-              ],
-              [
-                49.38462,
-                1.31659
-              ],
-              [
-                49.38397,
-                1.31473
-              ],
-              [
                 49.38448,
                 1.31382
               ],
@@ -6373,8 +6285,8 @@
                 "id": "st_muycnsjbe9sk",
                 "name": "RD6014 n°68",
                 "city": "BOURG-BEAUDOUIN",
-                "lat": 49.384036,
-                "lon": 1.314767,
+                "lat": 49.384052,
+                "lon": 1.314627,
                 "zoneId": null
               },
               "order": 3,
@@ -6494,8 +6406,8 @@
           "shape": {
             "sig": "st_muy96q2oo6ad>st_muycva4p1i3t>st_muycojfujagc>st_muycnsjbe9sk>st_muycn62mzknh>st_muycmf1iptcc>st_mv08bbd20zd6>st_muyc9xgau3fv>st_mv088h8j80we>st_mv087hkmvvvj>st_mv0863uj554e|bus",
             "profile": "bus",
-            "m": 44737,
-            "s": 3693,
+            "m": 44344,
+            "s": 3617,
             "pts": [
               [
                 49.44043,
@@ -6944,34 +6856,6 @@
               [
                 49.38448,
                 1.31382
-              ],
-              [
-                49.38397,
-                1.31473
-              ],
-              [
-                49.38462,
-                1.31659
-              ],
-              [
-                49.38466,
-                1.31692
-              ],
-              [
-                49.38464,
-                1.31763
-              ],
-              [
-                49.3844,
-                1.31875
-              ],
-              [
-                49.38377,
-                1.31794
-              ],
-              [
-                49.38304,
-                1.31632
               ],
               [
                 49.37321,
@@ -7584,8 +7468,8 @@
                 "id": "st_muycnsjbe9sk",
                 "name": "RD6014 n°68",
                 "city": "BOURG-BEAUDOUIN",
-                "lat": 49.384036,
-                "lon": 1.314767,
+                "lat": 49.384052,
+                "lon": 1.314627,
                 "zoneId": null
               },
               "order": 3,
@@ -7701,8 +7585,8 @@
           "shape": {
             "sig": "st_muy96q2oo6ad>st_muycva4p1i3t>st_muycojfujagc>st_muycnsjbe9sk>st_muycn62mzknh>st_muycmf1iptcc>st_mv08bbd20zd6>st_muyc9xgau3fv>st_mv088h8j80we>st_mv087hkmvvvj>st_mv0863uj554e|bus",
             "profile": "bus",
-            "m": 44737,
-            "s": 3693,
+            "m": 44344,
+            "s": 3617,
             "pts": [
               [
                 49.44043,
@@ -8151,34 +8035,6 @@
               [
                 49.38448,
                 1.31382
-              ],
-              [
-                49.38397,
-                1.31473
-              ],
-              [
-                49.38462,
-                1.31659
-              ],
-              [
-                49.38466,
-                1.31692
-              ],
-              [
-                49.38464,
-                1.31763
-              ],
-              [
-                49.3844,
-                1.31875
-              ],
-              [
-                49.38377,
-                1.31794
-              ],
-              [
-                49.38304,
-                1.31632
               ],
               [
                 49.37321,
@@ -8843,8 +8699,8 @@
                 "id": "st_muycnsjbe9sk",
                 "name": "RD6014 n°68",
                 "city": "BOURG-BEAUDOUIN",
-                "lat": 49.384036,
-                "lon": 1.314767,
+                "lat": 49.384052,
+                "lon": 1.314627,
                 "zoneId": null
               },
               "order": 7,
@@ -9069,8 +8925,8 @@
           "shape": {
             "sig": "st_muy96q2oo6ad>st_muycw11ftb1i>st_muycva4p1i3t>st_muycu2iqjjyj>st_muycq025wfhi>st_muycp3yliw4g>st_muycojfujagc>st_muycnsjbe9sk>st_muycn62mzknh>st_muycmf1iptcc>st_muyc9xgau3fv>st_muyc997vwji8>st_muyc8uin6k03>st_muyc86oyhf2x>st_muyc7exaiya1>st_muyc5aw3cr9h>st_muyc4jtip5ms>st_muyc3hyb8x2i>st_muyc1p7q6uf0>st_muyc05dzaujd>st_muybyqnxwq6e>st_muybxuun8pk1>st_muy95kia1x7u|bus",
             "profile": "bus",
-            "m": 61301,
-            "s": 4824,
+            "m": 60908,
+            "s": 4748,
             "pts": [
               [
                 49.44043,
@@ -9409,36 +9265,16 @@
                 1.31187
               ],
               [
+                49.38491,
+                1.31271
+              ],
+              [
                 49.38448,
                 1.31382
               ],
               [
                 49.38397,
                 1.31473
-              ],
-              [
-                49.38462,
-                1.31659
-              ],
-              [
-                49.38466,
-                1.31692
-              ],
-              [
-                49.38464,
-                1.31763
-              ],
-              [
-                49.3844,
-                1.31875
-              ],
-              [
-                49.38377,
-                1.31794
-              ],
-              [
-                49.38304,
-                1.31632
               ],
               [
                 49.37321,
@@ -16450,8 +16286,8 @@
                 "id": "st_muycnsjbe9sk",
                 "name": "RD6014 n°68",
                 "city": "BOURG-BEAUDOUIN",
-                "lat": 49.384036,
-                "lon": 1.314767,
+                "lat": 49.384052,
+                "lon": 1.314627,
                 "zoneId": null
               },
               "order": 7,
@@ -16676,8 +16512,8 @@
           "shape": {
             "sig": "st_muy96q2oo6ad>st_muycw11ftb1i>st_muycs1jy06m2>st_muycu2iqjjyj>st_muycq025wfhi>st_muycp3yliw4g>st_muycojfujagc>st_muycnsjbe9sk>st_muycn62mzknh>st_muycmf1iptcc>st_muyc9xgau3fv>st_muyc997vwji8>st_muyc8uin6k03>st_muyc86oyhf2x>st_muyc7exaiya1>st_muyc5aw3cr9h>st_muyc4jtip5ms>st_muyc3hyb8x2i>st_muyc1p7q6uf0>st_muyc05dzaujd>st_muybyqnxwq6e>st_muybxuun8pk1>st_muy95kia1x7u|bus",
             "profile": "bus",
-            "m": 61758,
-            "s": 4874,
+            "m": 61365,
+            "s": 4799,
             "pts": [
               [
                 49.44043,
@@ -17064,36 +16900,16 @@
                 1.31187
               ],
               [
+                49.38491,
+                1.31271
+              ],
+              [
                 49.38448,
                 1.31382
               ],
               [
                 49.38397,
                 1.31473
-              ],
-              [
-                49.38462,
-                1.31659
-              ],
-              [
-                49.38466,
-                1.31692
-              ],
-              [
-                49.38464,
-                1.31763
-              ],
-              [
-                49.3844,
-                1.31875
-              ],
-              [
-                49.38377,
-                1.31794
-              ],
-              [
-                49.38304,
-                1.31632
               ],
               [
                 49.37321,
@@ -17926,8 +17742,8 @@
                 "id": "st_muycnsjbe9sk",
                 "name": "RD6014 n°68",
                 "city": "BOURG-BEAUDOUIN",
-                "lat": 49.384036,
-                "lon": 1.314767,
+                "lat": 49.384052,
+                "lon": 1.314627,
                 "zoneId": null
               },
               "order": 7,
@@ -18147,8 +17963,8 @@
           "shape": {
             "sig": "st_muy96q2oo6ad>st_muycw11ftb1i>st_muycs1jy06m2>st_muycu2iqjjyj>st_muycq025wfhi>st_muycp3yliw4g>st_muycojfujagc>st_muycnsjbe9sk>st_muycn62mzknh>st_muycmf1iptcc>st_muyc9xgau3fv>st_muyc997vwji8>st_muyc8uin6k03>st_muyc86oyhf2x>st_muyc7exaiya1>st_muyc5aw3cr9h>st_muyc4jtip5ms>st_muyc3hyb8x2i>st_muyc1p7q6uf0>st_muyc05dzaujd>st_muybyqnxwq6e>st_muybxuun8pk1>st_muy95kia1x7u|bus",
             "profile": "bus",
-            "m": 61758,
-            "s": 4874,
+            "m": 61365,
+            "s": 4799,
             "pts": [
               [
                 49.44043,
@@ -18535,36 +18351,16 @@
                 1.31187
               ],
               [
+                49.38491,
+                1.31271
+              ],
+              [
                 49.38448,
                 1.31382
               ],
               [
                 49.38397,
                 1.31473
-              ],
-              [
-                49.38462,
-                1.31659
-              ],
-              [
-                49.38466,
-                1.31692
-              ],
-              [
-                49.38464,
-                1.31763
-              ],
-              [
-                49.3844,
-                1.31875
-              ],
-              [
-                49.38377,
-                1.31794
-              ],
-              [
-                49.38304,
-                1.31632
               ],
               [
                 49.37321,
@@ -19371,8 +19167,8 @@
                 "id": "st_muycnsjbe9sk",
                 "name": "RD6014 n°68",
                 "city": "BOURG-BEAUDOUIN",
-                "lat": 49.384036,
-                "lon": 1.314767,
+                "lat": 49.384052,
+                "lon": 1.314627,
                 "zoneId": null
               },
               "order": 5,
@@ -19592,8 +19388,8 @@
           "shape": {
             "sig": "st_muycs1jy06m2>st_muycu2iqjjyj>st_muycq025wfhi>st_muycp3yliw4g>st_muycojfujagc>st_muycnsjbe9sk>st_muycn62mzknh>st_muycmf1iptcc>st_muyc9xgau3fv>st_muyc997vwji8>st_muyc8uin6k03>st_muyc86oyhf2x>st_muyc7exaiya1>st_muyc5aw3cr9h>st_muyc4jtip5ms>st_muyc3hyb8x2i>st_muyc1p7q6uf0>st_muyc05dzaujd>st_muybyqnxwq6e>st_muybxuun8pk1>st_muy95kia1x7u|bus",
             "profile": "bus",
-            "m": 55311,
-            "s": 4138,
+            "m": 54918,
+            "s": 4063,
             "pts": [
               [
                 49.40756,
@@ -19784,8 +19580,8 @@
                 1.30808
               ],
               [
-                49.3852,
-                1.31187
+                49.38506,
+                1.31229
               ],
               [
                 49.38448,
@@ -19794,30 +19590,6 @@
               [
                 49.38397,
                 1.31473
-              ],
-              [
-                49.38462,
-                1.31659
-              ],
-              [
-                49.38466,
-                1.31692
-              ],
-              [
-                49.38464,
-                1.31763
-              ],
-              [
-                49.3844,
-                1.31875
-              ],
-              [
-                49.38377,
-                1.31794
-              ],
-              [
-                49.38304,
-                1.31632
               ],
               [
                 49.37321,
@@ -24412,8 +24184,8 @@
                 "id": "st_muycnsjbe9sk",
                 "name": "RD6014 n°68",
                 "city": "BOURG-BEAUDOUIN",
-                "lat": 49.384036,
-                "lon": 1.314767,
+                "lat": 49.384052,
+                "lon": 1.314627,
                 "zoneId": null
               },
               "order": 6,
@@ -24633,8 +24405,8 @@
           "shape": {
             "sig": "st_muy96q2oo6ad>st_muycw11ftb1i>st_muycs1jy06m2>st_muycq025wfhi>st_muycp3yliw4g>st_muycojfujagc>st_muycnsjbe9sk>st_muycn62mzknh>st_muycmf1iptcc>st_muyc9xgau3fv>st_muyc997vwji8>st_muyc8uin6k03>st_muyc86oyhf2x>st_muyc7exaiya1>st_muyc5aw3cr9h>st_muyc4jtip5ms>st_muyc3hyb8x2i>st_muyc1p7q6uf0>st_muyc05dzaujd>st_muybyqnxwq6e>st_muybxuun8pk1>st_muy95kia1x7u|bus",
             "profile": "bus",
-            "m": 61758,
-            "s": 4874,
+            "m": 61365,
+            "s": 4799,
             "pts": [
               [
                 49.44043,
@@ -25021,36 +24793,16 @@
                 1.31187
               ],
               [
+                49.38491,
+                1.31271
+              ],
+              [
                 49.38448,
                 1.31382
               ],
               [
                 49.38397,
                 1.31473
-              ],
-              [
-                49.38462,
-                1.31659
-              ],
-              [
-                49.38466,
-                1.31692
-              ],
-              [
-                49.38464,
-                1.31763
-              ],
-              [
-                49.3844,
-                1.31875
-              ],
-              [
-                49.38377,
-                1.31794
-              ],
-              [
-                49.38304,
-                1.31632
               ],
               [
                 49.37321,
@@ -25870,8 +25622,8 @@
                 "id": "st_muycnsjbe9sk",
                 "name": "RD6014 n°68",
                 "city": "BOURG-BEAUDOUIN",
-                "lat": 49.384036,
-                "lon": 1.314767,
+                "lat": 49.384052,
+                "lon": 1.314627,
                 "zoneId": null
               },
               "order": 6,
@@ -25911,8 +25663,8 @@
           "shape": {
             "sig": "st_muy96q2oo6ad>st_muycw11ftb1i>st_muycs1jy06m2>st_muycq025wfhi>st_muycp3yliw4g>st_muycojfujagc>st_muycnsjbe9sk>st_muycn62mzknh|bus",
             "profile": "bus",
-            "m": 24075,
-            "s": 2260,
+            "m": 24064,
+            "s": 2249,
             "pts": [
               [
                 49.44039,
@@ -26299,18 +26051,6 @@
                 1.31382
               ],
               [
-                49.38397,
-                1.31473
-              ],
-              [
-                49.384,
-                1.3148
-              ],
-              [
-                49.38397,
-                1.31473
-              ],
-              [
                 49.37321,
                 1.33312
               ],
@@ -26448,8 +26188,8 @@
                 "id": "st_muycnsjbe9sk",
                 "name": "RD6014 n°68",
                 "city": "BOURG-BEAUDOUIN",
-                "lat": 49.384036,
-                "lon": 1.314767,
+                "lat": 49.384052,
+                "lon": 1.314627,
                 "zoneId": null
               },
               "order": 6,
@@ -26673,8 +26413,8 @@
           "shape": {
             "sig": "st_muy96q2oo6ad>st_muycw11ftb1i>st_muycs1jy06m2>st_muycq025wfhi>st_muycp3yliw4g>st_muycojfujagc>st_muycnsjbe9sk>st_muycn62mzknh>st_muycmf1iptcc>st_muyc9xgau3fv>st_muyc997vwji8>st_muyc8uin6k03>st_muyc86oyhf2x>st_muyc7exaiya1>st_muyc5aw3cr9h>st_muyc4jtip5ms>st_muyc3hyb8x2i>st_muyc1p7q6uf0>st_muyc05dzaujd>st_muybyqnxwq6e>st_muybxuun8pk1>st_muy95kia1x7u|bus",
             "profile": "bus",
-            "m": 61758,
-            "s": 4874,
+            "m": 61365,
+            "s": 4799,
             "pts": [
               [
                 49.44043,
@@ -27061,36 +26801,16 @@
                 1.31187
               ],
               [
+                49.38491,
+                1.31271
+              ],
+              [
                 49.38448,
                 1.31382
               ],
               [
                 49.38397,
                 1.31473
-              ],
-              [
-                49.38462,
-                1.31659
-              ],
-              [
-                49.38466,
-                1.31692
-              ],
-              [
-                49.38464,
-                1.31763
-              ],
-              [
-                49.3844,
-                1.31875
-              ],
-              [
-                49.38377,
-                1.31794
-              ],
-              [
-                49.38304,
-                1.31632
               ],
               [
                 49.37321,
@@ -27884,8 +27604,8 @@
                 "id": "st_muycnsjbe9sk",
                 "name": "RD6014 n°68",
                 "city": "BOURG-BEAUDOUIN",
-                "lat": 49.384036,
-                "lon": 1.314767,
+                "lat": 49.384052,
+                "lon": 1.314627,
                 "zoneId": null
               },
               "order": 4,
@@ -28028,8 +27748,8 @@
           "shape": {
             "sig": "st_muyc997vwji8>st_muyc9xgau3fv>st_muycmf1iptcc>st_muycn62mzknh>st_muycnsjbe9sk>st_muycojfujagc>st_muycp3yliw4g>st_muycq025wfhi>st_muycqv6b7dhf>st_muycs1jy06m2>st_muycsyq37vku>st_muycva4p1i3t>st_muycw11ftb1i>st_muy96q2oo6ad|bus",
             "profile": "bus",
-            "m": 41042,
-            "s": 3293,
+            "m": 40649,
+            "s": 3220,
             "pts": [
               [
                 49.31649,
@@ -28336,36 +28056,16 @@
                 1.33312
               ],
               [
-                49.38304,
-                1.31632
-              ],
-              [
-                49.38377,
-                1.31794
-              ],
-              [
-                49.3844,
-                1.31875
-              ],
-              [
-                49.38464,
-                1.31763
-              ],
-              [
-                49.38466,
-                1.31692
-              ],
-              [
-                49.38462,
-                1.31659
-              ],
-              [
                 49.38397,
                 1.31473
               ],
               [
                 49.38448,
                 1.31382
+              ],
+              [
+                49.38491,
+                1.31271
               ],
               [
                 49.3852,
@@ -29118,8 +28818,8 @@
                 "id": "st_muycnsjbe9sk",
                 "name": "RD6014 n°68",
                 "city": "BOURG-BEAUDOUIN",
-                "lat": 49.384036,
-                "lon": 1.314767,
+                "lat": 49.384052,
+                "lon": 1.314627,
                 "zoneId": null
               },
               "order": 15,
@@ -29240,8 +28940,8 @@
           "shape": {
             "sig": "st_muy95kia1x7u>st_muybxuun8pk1>st_muybyqnxwq6e>st_muyc05dzaujd>st_muyc1p7q6uf0>st_muyc3hyb8x2i>st_muyc4jtip5ms>st_muyc5aw3cr9h>st_muyc7exaiya1>st_muyc86oyhf2x>st_muyc8uin6k03>st_muyc997vwji8>st_muyc9xgau3fv>st_muycmf1iptcc>st_muycn62mzknh>st_muycnsjbe9sk>st_muycojfujagc>st_muycp3yliw4g>st_muycq025wfhi>st_muycu2iqjjyj>st_muycva4p1i3t>st_muycw11ftb1i>st_muy96q2oo6ad|bus",
             "profile": "bus",
-            "m": 60893,
-            "s": 4768,
+            "m": 60500,
+            "s": 4695,
             "pts": [
               [
                 49.285,
@@ -29940,36 +29640,16 @@
                 1.33312
               ],
               [
-                49.38304,
-                1.31632
-              ],
-              [
-                49.38377,
-                1.31794
-              ],
-              [
-                49.3844,
-                1.31875
-              ],
-              [
-                49.38464,
-                1.31763
-              ],
-              [
-                49.38466,
-                1.31692
-              ],
-              [
-                49.38462,
-                1.31659
-              ],
-              [
                 49.38397,
                 1.31473
               ],
               [
                 49.38448,
                 1.31382
+              ],
+              [
+                49.38491,
+                1.31271
               ],
               [
                 49.3852,
@@ -31178,8 +30858,8 @@
                 "id": "st_muycnsjbe9sk",
                 "name": "RD6014 n°68",
                 "city": "BOURG-BEAUDOUIN",
-                "lat": 49.384036,
-                "lon": 1.314767,
+                "lat": 49.384052,
+                "lon": 1.314627,
                 "zoneId": null
               },
               "order": 15,
@@ -31300,8 +30980,8 @@
           "shape": {
             "sig": "st_muy95kia1x7u>st_muybxuun8pk1>st_muybyqnxwq6e>st_muyc05dzaujd>st_muyc1p7q6uf0>st_muyc3hyb8x2i>st_muyc4jtip5ms>st_muyc5aw3cr9h>st_muyc7exaiya1>st_muyc86oyhf2x>st_muyc8uin6k03>st_muyc997vwji8>st_muyc9xgau3fv>st_muycmf1iptcc>st_muycn62mzknh>st_muycnsjbe9sk>st_muycojfujagc>st_muycp3yliw4g>st_muycq025wfhi>st_muycu2iqjjyj>st_muycva4p1i3t>st_muycw11ftb1i>st_muy96q2oo6ad|bus",
             "profile": "bus",
-            "m": 60893,
-            "s": 4768,
+            "m": 60500,
+            "s": 4695,
             "pts": [
               [
                 49.285,
@@ -32000,36 +31680,16 @@
                 1.33312
               ],
               [
-                49.38304,
-                1.31632
-              ],
-              [
-                49.38377,
-                1.31794
-              ],
-              [
-                49.3844,
-                1.31875
-              ],
-              [
-                49.38464,
-                1.31763
-              ],
-              [
-                49.38466,
-                1.31692
-              ],
-              [
-                49.38462,
-                1.31659
-              ],
-              [
                 49.38397,
                 1.31473
               ],
               [
                 49.38448,
                 1.31382
+              ],
+              [
+                49.38491,
+                1.31271
               ],
               [
                 49.3852,
@@ -32646,8 +32306,8 @@
                 "id": "st_muycnsjbe9sk",
                 "name": "RD6014 n°68",
                 "city": "BOURG-BEAUDOUIN",
-                "lat": 49.384036,
-                "lon": 1.314767,
+                "lat": 49.384052,
+                "lon": 1.314627,
                 "zoneId": null
               },
               "order": 15,
@@ -32767,8 +32427,8 @@
           "shape": {
             "sig": "st_muy95kia1x7u>st_muybxuun8pk1>st_muybyqnxwq6e>st_muyc05dzaujd>st_muyc1p7q6uf0>st_muyc3hyb8x2i>st_muyc4jtip5ms>st_muyc5aw3cr9h>st_muyc7exaiya1>st_muyc86oyhf2x>st_muyc8uin6k03>st_muyc997vwji8>st_muyc9xgau3fv>st_muycmf1iptcc>st_muycn62mzknh>st_muycnsjbe9sk>st_muycojfujagc>st_muycp3yliw4g>st_muycq025wfhi>st_muycu2iqjjyj>st_muycva4p1i3t>st_muycw11ftb1i>st_muy96q2oo6ad|bus",
             "profile": "bus",
-            "m": 60893,
-            "s": 4768,
+            "m": 60500,
+            "s": 4695,
             "pts": [
               [
                 49.285,
@@ -33467,36 +33127,16 @@
                 1.33312
               ],
               [
-                49.38304,
-                1.31632
-              ],
-              [
-                49.38377,
-                1.31794
-              ],
-              [
-                49.3844,
-                1.31875
-              ],
-              [
-                49.38464,
-                1.31763
-              ],
-              [
-                49.38466,
-                1.31692
-              ],
-              [
-                49.38462,
-                1.31659
-              ],
-              [
                 49.38397,
                 1.31473
               ],
               [
                 49.38448,
                 1.31382
+              ],
+              [
+                49.38491,
+                1.31271
               ],
               [
                 49.3852,
@@ -37161,8 +36801,8 @@
                 "id": "st_muycnsjbe9sk",
                 "name": "RD6014 n°68",
                 "city": "BOURG-BEAUDOUIN",
-                "lat": 49.384036,
-                "lon": 1.314767,
+                "lat": 49.384052,
+                "lon": 1.314627,
                 "zoneId": null
               },
               "order": 7,
@@ -37387,8 +37027,8 @@
           "shape": {
             "sig": "st_muy96q2oo6ad>st_muycw11ftb1i>st_muycva4p1i3t>st_muycu2iqjjyj>st_muycq025wfhi>st_muycp3yliw4g>st_muycojfujagc>st_muycnsjbe9sk>st_muycn62mzknh>st_muycmf1iptcc>st_muyc9xgau3fv>st_muyc997vwji8>st_muyc8uin6k03>st_muyc86oyhf2x>st_muyc7exaiya1>st_muyc5aw3cr9h>st_muyc4jtip5ms>st_muyc3hyb8x2i>st_muyc1p7q6uf0>st_muyc05dzaujd>st_muybyqnxwq6e>st_muybxuun8pk1>st_muy95kia1x7u|bus",
             "profile": "bus",
-            "m": 61301,
-            "s": 4824,
+            "m": 60908,
+            "s": 4748,
             "pts": [
               [
                 49.44043,
@@ -37727,36 +37367,16 @@
                 1.31187
               ],
               [
+                49.38491,
+                1.31271
+              ],
+              [
                 49.38448,
                 1.31382
               ],
               [
                 49.38397,
                 1.31473
-              ],
-              [
-                49.38462,
-                1.31659
-              ],
-              [
-                49.38466,
-                1.31692
-              ],
-              [
-                49.38464,
-                1.31763
-              ],
-              [
-                49.3844,
-                1.31875
-              ],
-              [
-                49.38377,
-                1.31794
-              ],
-              [
-                49.38304,
-                1.31632
               ],
               [
                 49.37321,
@@ -38576,8 +38196,8 @@
                 "id": "st_muycnsjbe9sk",
                 "name": "RD6014 n°68",
                 "city": "BOURG-BEAUDOUIN",
-                "lat": 49.384036,
-                "lon": 1.314767,
+                "lat": 49.384052,
+                "lon": 1.314627,
                 "zoneId": null
               },
               "order": 6,
@@ -38800,8 +38420,8 @@
           "shape": {
             "sig": "st_muy96q2oo6ad>st_muycw11ftb1i>st_muycs1jy06m2>st_muycq025wfhi>st_muycp3yliw4g>st_muycojfujagc>st_muycnsjbe9sk>st_muycn62mzknh>st_muycmf1iptcc>st_muyc9xgau3fv>st_muyc997vwji8>st_muyc8uin6k03>st_muyc86oyhf2x>st_muyc7exaiya1>st_muyc5aw3cr9h>st_muyc4jtip5ms>st_muyc3hyb8x2i>st_muyc1p7q6uf0>st_muyc05dzaujd>st_muybyqnxwq6e>st_muybxuun8pk1>st_muy95kia1x7u|bus",
             "profile": "bus",
-            "m": 61758,
-            "s": 4874,
+            "m": 61365,
+            "s": 4799,
             "pts": [
               [
                 49.44043,
@@ -39188,36 +38808,16 @@
                 1.31187
               ],
               [
+                49.38491,
+                1.31271
+              ],
+              [
                 49.38448,
                 1.31382
               ],
               [
                 49.38397,
                 1.31473
-              ],
-              [
-                49.38462,
-                1.31659
-              ],
-              [
-                49.38466,
-                1.31692
-              ],
-              [
-                49.38464,
-                1.31763
-              ],
-              [
-                49.3844,
-                1.31875
-              ],
-              [
-                49.38377,
-                1.31794
-              ],
-              [
-                49.38304,
-                1.31632
               ],
               [
                 49.37321,
@@ -40050,8 +39650,8 @@
                 "id": "st_muycnsjbe9sk",
                 "name": "RD6014 n°68",
                 "city": "BOURG-BEAUDOUIN",
-                "lat": 49.384036,
-                "lon": 1.314767,
+                "lat": 49.384052,
+                "lon": 1.314627,
                 "zoneId": null
               },
               "order": 7,
@@ -40271,8 +39871,8 @@
           "shape": {
             "sig": "st_muy96q2oo6ad>st_muycw11ftb1i>st_muycva4p1i3t>st_muycu2iqjjyj>st_muycq025wfhi>st_muycp3yliw4g>st_muycojfujagc>st_muycnsjbe9sk>st_muycn62mzknh>st_muycmf1iptcc>st_muyc9xgau3fv>st_muyc997vwji8>st_muyc8uin6k03>st_muyc86oyhf2x>st_muyc7exaiya1>st_muyc5aw3cr9h>st_muyc4jtip5ms>st_muyc3hyb8x2i>st_muyc1p7q6uf0>st_muyc05dzaujd>st_muybyqnxwq6e>st_muybxuun8pk1>st_muy95kia1x7u|bus",
             "profile": "bus",
-            "m": 61301,
-            "s": 4824,
+            "m": 60908,
+            "s": 4748,
             "pts": [
               [
                 49.44043,
@@ -40611,36 +40211,16 @@
                 1.31187
               ],
               [
+                49.38491,
+                1.31271
+              ],
+              [
                 49.38448,
                 1.31382
               ],
               [
                 49.38397,
                 1.31473
-              ],
-              [
-                49.38462,
-                1.31659
-              ],
-              [
-                49.38466,
-                1.31692
-              ],
-              [
-                49.38464,
-                1.31763
-              ],
-              [
-                49.3844,
-                1.31875
-              ],
-              [
-                49.38377,
-                1.31794
-              ],
-              [
-                49.38304,
-                1.31632
               ],
               [
                 49.37321,
@@ -42690,8 +42270,8 @@
                 "id": "st_muycnsjbe9sk",
                 "name": "RD6014 n°68",
                 "city": "BOURG-BEAUDOUIN",
-                "lat": 49.384036,
-                "lon": 1.314767,
+                "lat": 49.384052,
+                "lon": 1.314627,
                 "zoneId": null
               },
               "order": 7,
@@ -42911,8 +42491,8 @@
           "shape": {
             "sig": "st_muy96q2oo6ad>st_muycw11ftb1i>st_muycs1jy06m2>st_muycu2iqjjyj>st_muycq025wfhi>st_muycp3yliw4g>st_muycojfujagc>st_muycnsjbe9sk>st_muycn62mzknh>st_muycmf1iptcc>st_muyc9xgau3fv>st_muyc997vwji8>st_muyc8uin6k03>st_muyc86oyhf2x>st_muyc7exaiya1>st_muyc5aw3cr9h>st_muyc4jtip5ms>st_muyc3hyb8x2i>st_muyc1p7q6uf0>st_muyc05dzaujd>st_muybyqnxwq6e>st_muybxuun8pk1>st_muy95kia1x7u|bus",
             "profile": "bus",
-            "m": 61758,
-            "s": 4874,
+            "m": 61365,
+            "s": 4799,
             "pts": [
               [
                 49.44043,
@@ -43299,36 +42879,16 @@
                 1.31187
               ],
               [
+                49.38491,
+                1.31271
+              ],
+              [
                 49.38448,
                 1.31382
               ],
               [
                 49.38397,
                 1.31473
-              ],
-              [
-                49.38462,
-                1.31659
-              ],
-              [
-                49.38466,
-                1.31692
-              ],
-              [
-                49.38464,
-                1.31763
-              ],
-              [
-                49.3844,
-                1.31875
-              ],
-              [
-                49.38377,
-                1.31794
-              ],
-              [
-                49.38304,
-                1.31632
               ],
               [
                 49.37321,
