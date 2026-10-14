@@ -442,7 +442,8 @@ class CarteContext extends Context {
     this.card.hidden = true;
     this.foot = document.createElement('div');
     this.foot.className = 'cm-foot';
-    this.panel.append(this.bar, this.sub, this.legend, this.msg, this.card, this.foot);
+    this.warnBox = this._mkTraceWarning();
+    this.panel.append(this.bar, this.sub, this.legend, this.warnBox, this.msg, this.card, this.foot);
 
     // Bandeau de détection du service en cours : entre la carte (et sa poignée) et le panneau
     this.detect = window.DetectBand ? new DetectBand(this) : null;
@@ -453,6 +454,24 @@ class CarteContext extends Context {
     el.appendChild(this.panel);
     this._initSplit(el);
     if (window.ResizeObserver) new ResizeObserver(() => this._layout()).observe(el);
+  }
+
+  // Avertissement aux conducteurs (vue d'ensemble seulement) : le tracé affiché est indicatif
+  _mkTraceWarning() {
+    const box = document.createElement('div');
+    box.className = 'cm-warn';
+    box.setAttribute('role', 'note');
+    box.hidden = true;
+    box.innerHTML = uiSvg('<path d="M12 3.5l9.5 16.5h-19z"/><path d="M12 10v4.5"/><circle cx="12" cy="17.3" r=".6" fill="currentColor"/>', 'cm-warn-ico');
+    const t = document.createElement('div');
+    const h = document.createElement('b');
+    h.textContent = 'Tracé indicatif';
+    const p = document.createElement('p');
+    p.textContent = 'Le tracé GPS affiché sert à la détection des services réalisés. Il peut emprunter des voies non adaptées '
+      + 'au véhicule et différer du tracé réel : suivez la signalisation et les consignes d’exploitation.';
+    t.append(h, p);
+    box.appendChild(t);
+    return box;
   }
 
   _ratio() {
@@ -553,6 +572,7 @@ class CarteContext extends Context {
     this.foot.hidden = !located.length;
     this.msg.hidden = !!located.length;
     this.card.hidden = true;
+    this.warnBox.hidden = true;
     if (this.detect) this.detect.setNetwork(located.length ? net : null, this._sig);
     if (!located.length) {
       this.msg.textContent = 'Aucun arrêt n’a de coordonnées. Renseignez la latitude et la longitude des arrêts (Compte › Feed › Arrêts) pour les voir ici.';
@@ -630,6 +650,7 @@ class CarteContext extends Context {
     this.panel.classList.toggle('flat', flat);
     this.bar.hidden = !flat;
     if (!flat) this.bar.replaceChildren();
+    this.warnBox.hidden = mode !== 'overview';
     if (mode === 'line') this._showLine(line, net);
     else if (mode === 'service') this._showService(sv, net);
     else if (mode === 'stop') this._showStop(d.stop, net, d.note);
@@ -935,6 +956,12 @@ class CarteContext extends Context {
       .cm-run.yes{background:#dff3e6;color:#1c7a4d}
       .cm-run.no{background:#fbe2e0;color:#b3261e}
       .cm-acts{display:flex;gap:.6em;margin-top:.9em}
+      .cm-warn{display:flex;gap:.8em;align-items:flex-start;margin:-.6em 1em 1.2em;padding:.85em 1em;border-radius:18px;
+        background:#fff4dc;color:#6b4600;box-shadow:inset 0 0 0 1px #f1d79a}
+      .cm-warn[hidden]{display:none}
+      .cm-warn-ico{flex:none;width:24px;height:24px;color:#b26a00;margin-top:.05em}
+      .cm-warn b{display:block;color:#8a5200}
+      .cm-warn p{margin:.25em 0 0;font-size:.88em;line-height:1.45}
       .cm-stops li.cm-past{opacity:.4}
       .cm-stops li.cm-last{opacity:.75}
       .cm-stops li.cm-next{padding:.5em 0}
